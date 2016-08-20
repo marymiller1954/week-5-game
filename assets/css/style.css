@@ -1,0 +1,261 @@
+
+body { 
+  background: url("../images/battle.jpe") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  font-family: 'Quando', cursive;
+  color: white;
+  line-height: 1;
+  text-align:center;
+  font-size:45px;
+}
+
+title {
+  font-size: 60px;
+}
+
+h1 {
+/*	font-family: Roboto, sans-serif; */
+ /*       font-family: 'Quando', cursive; */
+        font-family: 'Alice';
+      	font-weight: 500;
+	      text-transform: uppercase;
+        margin: 5px;
+        color: darkred;
+        font-size: 30px;
+        margin-bottom: 0px;
+}
+h2 {
+
+      font-family: 'Alice';
+      font-weight: 500;
+      text-transform: uppercase;
+      margin:5px 0;
+      color: white;
+      font-size: 30px;
+}
+h3 {
+    	font-size: 25px;
+      color: white;
+}
+
+h4 {
+      font-size: 25px;
+      color: black;
+      margin-top: 0px;
+      padding-top: 0px;
+}
+
+p {
+
+  font-size: 60px;
+  height:100%;
+  font-weight: 500;
+  font-family: 'Quando', cursive;
+
+}
+
+
+
+.buttons {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    float: left;
+    margin-left: 50%;
+
+}
+
+
+.triviaquestion {
+
+  font-size: 40px;
+  height:100%;
+  font-weight: 500;
+  font-family: 'Alice';
+
+}
+
+.timecounter {
+
+  font-size: 25px;
+  height:100%;
+  font-weight: 500;
+  font-family: 'Quando', cursive;
+  margin-top: 0px;
+  color: black;
+
+}
+
+.triviaImage {
+  width: 300px;
+  height: 170px;
+  margin-bottom: 5px;
+}
+
+#button{
+  font-family: 'Quando', cursive;
+  border-radius: 25px;
+  background: #8B008B;
+  color:white;
+  border: solid 1px white;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+}
+
+#p2 {
+
+  font-size: 45px;
+  color: red;
+}
+
+ #mainContent {
+    width: 65%;
+    margin: auto;
+    margin-top: 60px;
+      margin-bottom: 50px; 
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 45px;
+    font-family: 'Quando', cursive;
+  }
+
+#gameDirections{
+  text-align:center;
+  font-size: 35px;
+  color: white;
+  margin-top: 0px;
+  font-family: 'Quando', cursive;
+
+}
+
+#correct {
+  text-align:center;
+  font-size: 30px;
+}
+
+#incorrect{
+  text-align:center;
+  font-size: 45px;
+  font-family: 'Quando', cursive;
+}
+
+#unanswered{
+  text-align:center;
+  font-size: 45px;
+  font-family: 'Quando', cursive;
+}
+
+.answers {
+  text-align: center; 
+}
+
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #000;
+   color: #fff;
+   text-decoration: none;
+   vertical-align: middle;
+   font-size: 22px;
+
+   }
+/*
+#questions {
+  font-family: 'Quando', cursive;
+  text-align:center;
+  display:block;
+  border-radius: 25px;
+  background: #D09CD9;
+  color:white;
+  border: solid 1px white;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:18px;
+  padding:18px 10px;
+  width:600px;
+  height: 50px;
+  margin: 10px;
+  outline: none;
+  float: left;
+  margin-left: 30%;
+
+} */
+
+.startbutton {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 17px 34px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Georgia, serif;
+ /*  font-family: 'Quando', cursive; */
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #7a5cff;
+   background: #7a5cff;
+   }
+.wide-btn {
+    width: 150px;
+    height: 10px;
+}
+
+
+@media only screen and (max-width: 980px) {
+    body {
+        padding:  20px;
+        max-width: 980px;
+        position: fixed;
+/*        overflow: auto; */
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    body {
+        padding:  20px;
+        max-width: 768px;
+        position: fixed;
+/*        overflow: auto; */
+    }
+
+}
+@media only screen and (max-width: 640px) {
+    body {
+        padding:  20px;
+        max-width: 640px;
+        position: fixed;
+/*        overflow: auto; */
+    }
+
+}
